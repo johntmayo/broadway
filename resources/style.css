@@ -3,6 +3,24 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+ul li {
+  color: white;
+  text-decoration: underline;
+}
+
 #header {
+  background-image: image("./images/the-flatiron-building.png");
+}
+
+#designed-in-new-york {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
   background-image: image("./images/the-flatiron-building.png");
 }
