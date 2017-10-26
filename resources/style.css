@@ -1,5 +1,8 @@
 * {
   font-family: Helvetica, sans-serif;
+}
+
+#center {
   text-align: center;
 }
 
@@ -53,6 +56,7 @@ color: white;
   background-color: dimgray;
   font-size: 11px;
   color: white;
+  text-align: left;
 }
 
 #footer ul li {
