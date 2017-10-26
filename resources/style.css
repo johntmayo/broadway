@@ -9,18 +9,57 @@ h1 {
   color: white;
 }
 
-ul li {
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  }
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+#header ul li {
   color: white;
-  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  line-height: 40px;
+}
+
+a {
+color: white;
 }
 
 #header {
-  background-image: image("./images/the-flatiron-building.png");
-}
+  background-image: url("./images/the-flatiron-building.PNG");
+  background-position: center;
+  background-size: cover;
+  }
 
 #designed-in-new-york {
   color: white;
   font-size: 23px;
   font-weight: bold;
-  background-image: image("./images/the-flatiron-building.png");
+  background-image: url("./images/the-flatiron-building.png");
+  background-position: center;
+}
+
+#footer {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+}
+
+#footer ul li {
+  font-size: 11px;
+  display: inline;
+}
+
+#footer a {
+  font-weight: bold;
 }
