@@ -26,6 +26,10 @@ p {
   font-size: 14px;
 }
 
+a {
+color: white;
+}
+
 #header ul li {
   color: white;
   font-size: 18px;
@@ -34,12 +38,8 @@ p {
   line-height: 40px;
 }
 
-a {
-color: white;
-}
-
 #header {
-  background-image: url("./images/the-flatiron-building.PNG");
+  background-image: url("./images/the-flatiron-building.png");
   background-position: center;
   background-size: cover;
   }
